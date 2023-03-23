@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="{% static '/js/script.js' %}"></script>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <title>INDEX</title>
+</head>
+<body>
+    <h2 style="color: brown;">Bienvenue</h2>
+    <h3>My name is : {{student}} </h3>
+    <h3>Parent name is : {{parent}} </h3>
+    <img src="{% static '/image1.png' %}" alt="Mon image" height="250px" width="500px">
+    <br>
+    <img src="{% static '/192.png' %}" alt="Mon image" height="250px" width="500px">
+
+</body>
+</html>
